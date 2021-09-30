@@ -84,7 +84,6 @@ open this link to help you code the flex properties */
   padding: 15px 28px;
   border-radius: 28px;
   cursor: pointer;
-  transition: 0.2s all ease-in-out;
   font-family: "Fraunces", serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -369,8 +368,9 @@ open this link to help you code the flex properties */
     color: black;
     width: 70%;
     text-align: center;
-    transition: 0.2s all ease-in-out;
+    transition: 0s all ease-in-out;
     box-shadow: 0 10px 38px rgb(0 0 0 / 5%);
+    visibility: visible;
   }
 
   .header .menu-btn:checked ~ .menu.active {
